@@ -1,0 +1,100 @@
+:root{
+/* Variables de colores*/
+--huble-uncle: hsl(228, 45%, 44%);
+--background-landing:#674bb1;
+--color-text:#fff9ff;
+}
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+}
+html{
+    font-size: 62.5%;
+}
+body{
+    background-color:var(--background-landing) ;
+    background-image: url('../images/bg-mobile.svg');
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: contain;
+}
+main{
+    display: flex;
+    flex-direction: column;
+    padding-top: 20px;
+
+}
+.header__logo{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: column;
+    justify-items: start;
+    padding-top: 20px;
+}
+.header__logo img {
+    width: 150px;
+    height: 70px;
+    margin-left: 40px;
+}
+.section__image{
+    width: 100%;
+    padding: 40px;
+}
+.section__image img{
+    width: 100%;
+    height: 100%;
+}
+main .section__info-comunity{
+    padding: 40px;;
+}
+.section__info-comunity h1{
+    color: white;
+    font-size: 2.5rem;
+    text-align: center;
+    font-weight: 700;
+    font-family: 'Poppins', sans-serif;
+    margin-bottom: 10px;
+}
+.section__info-comunity p{
+    font-size: 1.8rem;
+    color: white;
+    text-align: center;
+    line-height: 2.5rem;
+    margin-bottom: 20px;
+    font-family: 'Open Sans', sans-serif;
+}
+.section__info-comunity .section__register{
+    background-color: hsl(0deg 0% 100%);
+    display: grid;
+    justify-content: center;
+    place-content: center;
+    width: 180px;
+    height: 40px;
+    border-radius: 30px;
+    box-shadow: 2px 2px 3px 3px hsl(228, 57%, 37%);
+    margin: 0 auto;
+    font-size: 1.6rem;
+    font-weight: 400;
+    font-family: 'Open Sans', sans-serif;
+    text-decoration: none;
+}
+.section__register a{
+    text-decoration: none;
+    color: var(--huble-uncle);
+    
+}
+footer{
+    width: 100%;
+    height: 50px;
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    margin-top: 30px;
+    margin-bottom: 20px;
+}
+footer a img{
+    width: 50px;
+    height: 50px;
+}
