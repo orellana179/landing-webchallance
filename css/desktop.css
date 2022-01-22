@@ -4,10 +4,6 @@
        margin: 0 auto;
        flex-direction: row;
    }
-   .header__logo{
-       width: 90%;
-       margin: 0 auto;
-   }
     .section__image{
         padding-bottom: 0;
        width: 55%;
@@ -28,6 +24,7 @@
    }
    footer{
     justify-content: flex-end;
-    padding-right: 20px;
+    padding-right: 50px;
+    bottom: 0;
    }
 }
