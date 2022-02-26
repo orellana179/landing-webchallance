@@ -7,4 +7,4 @@ Atraves de pruebas, en esta caso se trataba de crear una landing page sencilla. 
 
 ## Reto terminado
 Aqui esta el link:
-https://orellana179.github.io/landing-webchallance/
+https://orellana179.github.io/landing-webchallange/
